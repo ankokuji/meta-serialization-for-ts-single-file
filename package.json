@@ -1,0 +1,26 @@
+{
+  "name": "ts-meta-extract",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "description": "typescript compiling analyzer for decorator",
+  "version": "0.1.0",
+  "dependencies": {
+    "@types/lodash": "^4.14.113",
+    "@types/node": "^10.5.2",
+    "html-parse-stringify2": "^2.0.1",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "ts-node lib/index",
+    "test": "ts-node test/test",
+    "transform": "ts-node lib/transformer"
+  },
+  "author": {
+    "name": "huugang",
+    "email": "guangyu9@staff.sina.com.cn"
+  }
+}
